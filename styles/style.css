@@ -185,3 +185,20 @@ body {
 
 }
 
+@media (max-width: 1600px) {
+    .navbar {
+        width: 40%;
+    }
+
+    .card-image h2 {
+        font-size: 2em;
+    }
+
+    .card-image p {
+        font-size: 20px;
+    }
+
+    .card-image {
+        height: 200px;
+    }
+}
