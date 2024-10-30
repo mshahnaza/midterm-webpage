@@ -16,7 +16,7 @@ body {
 
 .navbar {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     width: 20%;
     padding: 10px 0;
     position: relative;
@@ -49,7 +49,7 @@ body {
     border-radius: 3px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     width: 40vh;
-    height: 50vh;
+    height: auto;
     text-align: center;
     margin-top: 20px;
     padding: 0;
@@ -153,18 +153,12 @@ body {
         padding-right: 15px;
     }
 
-    .card {
-        width: 90%;
-        height: auto;
-    }
-
     .card-image {
         height: 150px;
     }
 
     .card-image h2 {
         font-size: 1.8em;
-        top: 8vh;
     }
 
     .card-image p {
@@ -175,3 +169,19 @@ body {
         font-size: 14px;
     }
 }
+
+@media (max-width: 1024px) {
+    .navbar {
+        width: 40%;
+    }
+
+    .card-image h2 {
+        font-size: 2em;
+    }
+
+    .card-image p {
+        font-size: 16px;
+    }
+
+}
+
