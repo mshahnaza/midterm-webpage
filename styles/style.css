@@ -136,3 +136,42 @@ body {
     color: black;
     transform: scale(1.5);
 }
+
+@media (max-width: 768px) {
+    body {
+        padding-top: 2%;
+    }
+
+    .navbar {
+        width: 90%;
+        justify-content: space-between;
+    }
+
+    .nav-item {
+        padding: 10px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .card {
+        width: 90%;
+        height: auto;
+    }
+
+    .card-image {
+        height: 150px;
+    }
+
+    .card-image h2 {
+        font-size: 1.8em;
+        top: 8vh;
+    }
+
+    .card-image p {
+        font-size: 14px;
+    }
+
+    .card li {
+        font-size: 14px;
+    }
+}
